@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from "react";
-import { Router } from "@reach/router";
+import { Router, Link } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import NavBar from "./modules/NavBar.js";
 import Home from "./pages/Home.js";
@@ -17,7 +17,7 @@ function App() {
     <>
       <NavBar/>
       <Router>
-        <Courses path="/"/>
+        <Home path="/"/>
         <Courses path="/courses"/>
         <Resume path="/resume"/>
         <NotFound default />
