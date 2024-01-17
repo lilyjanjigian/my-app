@@ -7,7 +7,7 @@ const Resume = (props) => {
     <div className="Resume-Background">
       <div className="Resume-TitleContainer">
         <div className="Resume-Title">
-          Resume
+          Resume!
         </div>
       </div>
     </div>
