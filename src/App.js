@@ -17,7 +17,7 @@ function App() {
     <>
       <NavBar/>
       <Router>
-        <Home path="/"/>
+        <Home path="/my-app"/>
         <Courses path="/courses"/>
         <Resume path="/resume"/>
         <NotFound default />
